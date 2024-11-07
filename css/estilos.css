@@ -1,5 +1,5 @@
 .menu-cabecera{
-    background-color: #BE1622;
+    background-color: #AAD9E6;
     width: 100%;
 }
 *{
@@ -7,7 +7,6 @@
     padding: 0;
 }
 .banner{
-    background-color: #1D70B8;
     width: 100%; height: 120px;
 }
 .caja-columnas{
@@ -33,4 +32,34 @@
 }
 .colorBlue{
     background-color: blue;
+}
+.Menu-superior li{
+    display: inline;
+    padding: 5px;
+    border-right: solid 2px black;
+}
+.Menu-superior li:last-child{
+    border-right: none;
+}
+.Menu-superior{
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: right;
+    padding: 20px;
+}
+.Menu-superior li a:hover{
+    color: #D7F8F1;
+    background-color:#7BB9CB;
+    text-decoration: underline;
+}
+li a{
+    text-decoration: none;
+}
+.banner{
+    background-image:url(../imagenes/usabilidad-formatos-archivo.png) ;
+    width: 100;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y:50%;
 }
