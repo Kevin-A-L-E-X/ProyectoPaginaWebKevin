@@ -15,23 +15,24 @@
     align-items: center;
     gap: 10px;
 }
+.caja-columnas img{
+    width: 100%;
+    height: 300px;
+}
 .columna{
     flex: 1;
     background-color: #F0F0F0;
     border: 1px solid black;
     text-align: center;
 }
-.colorVerde{
-    background-color: green;
-}
-.colorCeleste{
-    background-color: skyblue;
-}
-.colorAguaMarina{
+.color1{
     background-color: aquamarine;
 }
-.colorBlue{
-    background-color: blue;
+.color2{
+    background-color: skyblue;
+}
+.color3{
+    background-color: #F7F651;
 }
 .Menu-superior li{
     display: inline;
@@ -56,10 +57,27 @@ li a{
     text-decoration: none;
 }
 .banner{
-    background-image:url(../imagenes/usabilidad-formatos-archivo.png) ;
+    background-image:url(../imagenes/working-process-banner-flat-style-3254401.jpg) ;
     width: 100;
-    height: 350px;
+    height: 290px;
     background-repeat: no-repeat;
     background-size: 100%;
     background-position-y:50%;
+}
+.contactanos{
+    width: 80%;
+    margin: auto;
+
+}
+form{
+    padding: 15px;
+}
+input{
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+}
+textarea{
+    width: 100%;
+    height: 100px;
 }
